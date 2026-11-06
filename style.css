@@ -105,3 +105,96 @@ rgba(o,o,o,.85)),
   transition: .3s;
 }
 
+.btn:hover{
+  background: white;
+  transform:scale(1.05);
+}
+
+/* ABOUT */
+
+.about{ 
+padding: 100px 15%;
+text-align:center;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+  font-family:'Orbitron',sans-serif;
+  font-size:38px;
+  margin-bottom:30px;
+}
+
+.about p{
+  color: #aaa;
+  line-height: 2;
+  max-width: 750px;
+  margin:auto;
+}
+
+/* SERVICES */
+
+.services{
+  padding: 90px 8%;
+  background: #111;
+  text-align:center;
+}
+
+.service-container{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top:45px;
+}
+
+.service-card{
+  background: #1b1b1b;
+  padding: 40px 20px;
+  margin-top: 45px;
+  transition: .3s;
+}
+
+.service-card:hover{
+  border-color: #d6ad45;
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(214,173,69,.15);
+}
+
+.service-card h3{
+  color: #d6ad45;
+  margin-bottom: 20px;
+  font-family:'Orbitron',sans-serif;
+  font-size: 16px;
+}
+
+.service-card p{
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* CONTACT */
+
+.contact{
+  padding: 110px 20px;
+  text-align:center;
+}
+
+.contact p{
+  color: #aaa;
+}
+
+.social {
+  margin-top: 35px;
+}
+
+/* FOOTER */
+
+footer{
+  background: #050505;
+  padding: 30px;
+  text-align:center;
+  border-top: 1px solid #333;
+  color:#777
+  font-size:12px;
+  line-height: 2;
+}
