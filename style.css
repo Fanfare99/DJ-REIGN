@@ -1,0 +1,107 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+html{ 
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #080808;
+  color: white;
+  font-family:'Poppins',sans-serif;
+}
+
+/* NAVIGATION */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  background: #080808;
+}
+
+.logo{
+  font-family:'Orbitron'sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+}
+
+.logo span,
+  h1 span,
+  h2 span{
+    color: #d6ad45;
+}
+
+nav a{
+  color: white;
+  text-decoration:none;
+  margin-left: 25px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color:#d6ad45;
+}
+
+/* HERO SECTION */
+
+.hero {
+  min-height: 85vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding: 40px 20px;
+
+  background:
+  linear-gradient(rgba(0,0,0,.65),
+rgba(o,o,o,.85)),
+  url(IMG_4405.PNG)
+  center/cover no-repeat;
+}
+
+.subtitle {
+  letter-spacing: 7px;
+  color: #d6ad45;
+  margin-bottom: 20px;
+}
+
+.hero h1{
+  font-family:'Orbitron',sana-serif;
+  font-size:clamp(65px, 12vw, 130px);
+  font-weight: 900;
+  text-shadow: 0 0 25px rgba(214,173,69,.3)
+}
+
+.hero h2{
+  font-size: 28px;
+  letter-spacing:8px;
+  margin:10px 0 25px;
+}
+
+.hero p{
+  max-width: 550px;
+  margin:auto;
+  line-height: 1.8;
+}
+
+/* BUTTON */
+
+.btn{
+  display:inline-block;
+  margin-top: 30px;
+  padding:16px 35px;
+  background:#d6ad45;
+  color:black;
+  font-weight: 700;
+  text-decoration:none;
+  letter-spacing: 2px;
+  transition: .3s;
+}
+
